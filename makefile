@@ -1,5 +1,5 @@
 CC=clang
-CFLAGS=-I. -Wall  -std=c99 -D_BSD_SOURCE -Wno-unused-variable -fcolor-diagnostics
+CFLAGS=-I. -Wall  -std=c99 -D_BSD_SOURCE -Wno-unused-variable -fcolor-diagnostics -g
 DEPS = 
 OBJ = ping.o  
 LDFLAGS = 

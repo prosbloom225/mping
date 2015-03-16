@@ -31,10 +31,10 @@ int main(int argc, char** argv) {
 	int addrlen;
 	int siz;
 
-	if (getuid() != 0) {
-		fprintf(stderr, "root required.");
-		exit(EXIT_FAILURE);
-	}
+	/* if (getuid() != 0) { */
+	/* 	fprintf(stderr, "root required."); */
+	/* 	exit(EXIT_FAILURE); */
+	/* } */
 
 	parse_argv(argv, dst_addr, src_addr);
 	printf("Source addr: %s\n", src_addr);

@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 				command: 'sudo ./mping 127.0.0.1',
 			},
 			test: {
-				command: 'echo "TESTING: "',
+				command: 'echo "TESTING: Local" && sudo ./mping localhost && echo "TESTING: External" && sudo ./mping google.com',
 			},
 		},
 		watch: {
